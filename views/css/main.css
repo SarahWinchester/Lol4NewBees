@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-image: url("../assets/back.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+}
+body{
+  box-sizing: border-box;
+  background-image: url("../assets/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header{
+  text-align: center;
+  width: 50vh;
+}
+.card{
+  border: silver 75px solid;
+  border-image-source: url("../assets/border.png");
+  border-image-slice: 75;
+  text-align: justify;
+  background-color: black;
+  color: #937341;
+}
+.most{
+  background-image: url(../assets/background\ buttons.JPG);
+  text-align: center;
+  height: 15vh;
+  padding: 3vh;
+  text-shadow: 2px 2px #16171b;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  color: #937341;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+/*#sing-up{
+  display: none;
+}*/
