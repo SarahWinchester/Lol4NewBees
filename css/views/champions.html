@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/champions.css">
+  <title>Lol4NewBees</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="https://lan.leagueoflegends.com/es/game-info/">
+      <img src="../assets/LOL_Logo.png" width="70" height="70" alt="logo">
+    </a>
+    <h6 class="title">
+      <span style="color: #937341">Bienvenido invocador
+       
+      </h6>
+      
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="../views/main.html">La grieta
+                <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../views/tips.html">Vocabulario</a>
+        </li>
+        
+        <li class="nav-item">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Campeones
+            </button>
+            <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <a class="nav-link disabled" href="../views/champions.html">Campeones</a>
+                    <a class="nav-link disabled" href="../views/Individual.html">Single Champion</a>
+                </div>
+              </div>
+            <!--  -->
+        </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="../views/being.html">Tips</a>
+    </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="https://lan.leagueoflegends.com/es/page/preguntas-frecuentes-recompensas-3a-temporada">Dudas Frecuentes</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+  <header class="flow container ">
+    <div class="header col-6 offset-3 "><img class="img-fluid" src="../assets/Lollogo.png"  alt="">
+    </div>
+  
+  </header>
+  
+  <main>
+    <div id="container">
+      
+      <div class="content">
+        <div class="search text-center">
+          <form>
+            <input id="search-text" type="text"  >
+            <button id="search-button" type="button">Buscar</button>
+        </form>
+          <i class="fa fa-search"></i>
+        </div>
+        <div id="champion"> 
+          <div id="template" class="d-none"
+            <div class="col-4 ">
+              <a href=""><img src="http://ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
+              <span class="letters">{{title}}</span>
+              <h3 class="letters">{{name}}</h3>
+            </div>
+          </div>
+        </div>
+      
+
+
+</main>
+
+<footer>
+    <div class="panel panel-default">
+        <div class="panel-body"> © Riot Games, Inc. Todos los derechos reservados. Riot Games, League of Legends y PvP.net son marcas comerciales o marcas registradas de Riot Games, Inc.</div>
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<!-- <script src="../js/champions_data.js"></script> -->
+<script src="../js/champions.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<!-- <script type="text/javascript" src="../js/app.js"></script> -->
+</body>
+
+</html>
