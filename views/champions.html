@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" />
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/champions.css">
@@ -19,14 +20,14 @@
     <h6 class="title">
       <span style="color: #937341">Bienvenido invocador
         <br>**name**</span>
-      </h6>
-      
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    </h6>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -39,12 +40,12 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">
-          Campeones
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Historia</a>
-          <a class="dropdown-item" href="#">Combos</a>
+            aria-expanded="false">
+            Campeones
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Historia</a>
+            <a class="dropdown-item" href="#">Combos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Tips</a>
@@ -53,51 +54,58 @@
           <a class="nav-link disabled" href="#">Dudas Frecuentes</a>
         </li>
       </ul>
-    </div>
+      </div>
   </nav>
   <header class="flow container ">
-    <div class="header col-6 offset-3 "><img class="img-fluid" src="../assets/Lollogo.png"  alt="">
+    <div class="header col-6 offset-3 ">
+      <img class="img-fluid" src="../assets/Lollogo.png" alt="">
     </div>
-  
+
   </header>
-  
+
   <main>
     <div id="container">
-      
+
       <div class="content">
         <div class="search">
           <form>
-            <input id="search-text" type="text"  >
+            <input id="search-text" type="text">
             <button id="search-button" type="button">Buscar</button>
-        </form>
+          </form>
           <i class="fa fa-search"></i>
         </div>
-        <div id="champion"> 
-          <div id="template" class="d-none"
-            <div class="col-4 ">
-              <a href=""><img src="http://ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-              <span class="letters">{{title}}</span>
-              <h3 class="letters">{{name}}</h3>
-            </div>
+        <div id="champion">
+          <div id="template" class="d-none" <div class="col-4 ">
+            <a href="">
+              <img src="http://ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt="">
+            </a>
+            <span class="letters">{{title}}</span>
+            <h3 class="letters">{{name}}</h3>
           </div>
         </div>
-      
+      </div>
 
 
-</main>
 
-<footer>
-  <div class="panel panel-default">
-    <div class="panel-body">&copy</div>
-  </div>
-</footer>
+  </main>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
-<!-- <script src="../js/champions_data.js"></script> -->
-<script src="../js/champions.js"></script>
-<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-<!-- <script type="text/javascript" src="../js/app.js"></script> -->
+  <footer>
+    <div class="logo-footer">
+      <img class="align-self-center " src="assets/Lollogo.png" alt="">
+      <h5 class="mt-0">Lol-4New-Bees</h5>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+  <!-- <script src="../js/champions_data.js"></script> -->
+  <script src="../js/champions.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript" src="../js/app.js"></script> -->
 </body>
 
 </html>
