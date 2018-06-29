@@ -6,6 +6,7 @@ body{
   box-sizing: border-box;
   background-image: url("../assets/back.png");
   background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
 }
 .container{
@@ -15,17 +16,17 @@ body{
 .card{
   border: silver 75px solid;
   border-image-source: url("../assets/border.png");
-  border-image-slice: 50;
+  border-image-slice: 75;
   text-align: justify;
-  background:radial-gradient(black, #5b9a91);
+  background-color:rgba(0, 0, 0, 0.7);
   color: #937341;
-  height: 100vh;
 }
-
 footer{
   position: fixed;
   bottom: 0;
-  background-color: #5b9a91;
+  font-size: .9rem;
+  color: #937341;
+  background-color: black;
   width: 100%;
   text-align: center;
 }
