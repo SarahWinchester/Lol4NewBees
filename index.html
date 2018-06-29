@@ -4,15 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Lol-4New-Bees</title>
   </head>
   <body>
+      <section class="row  ">
+          <div class="splash  center  blue-grey darken-3 bgdetails ">
+              <div class=" col s12 textSplash">Lol 4NewBees</div>
+              <img src="../assets/porobees.png" alt="" >
+          </div>
+          
+          </div>
+      </section>
 
-    <main class="container first-page col-sm-12 align-self-center">
-      <div id="image-splash-back" Sclass="">
-
-      </div>
+    <main class="container first-page col-sm-12 align-self-center copy" >
+      
       <header>
         <div class="sticky-top">
           <img src="assets/icon.png" alt="">
@@ -38,7 +44,8 @@
                   <input id="username" name="username" type="text" placeholder="Correo">
                   <label for="password"></label>
                   <input type="password" id="password" name="password" placeholder="Contraseña">
-                  <button id="login" class="btn btn-outline-dark" type="button">Login</button><button class="btn btn-outline-dark" type="button" id="logout">Logout</button>
+                  <button id="login" class="btn btn-outline-dark" type="button">Login</button>
+                  <button class="btn btn-outline-dark" type="button" id="logout">Logout</button>
                   <div id="error"></div>
                   <div id="loader">
                   </div>
@@ -53,8 +60,8 @@
 
     </main>
     <footer>
-      <div class="logo-footer">
-        <img  class="align-self-center " src="assets/Lollogo.png" alt="">
+      <div class="logo-footer copy" >
+        
         <h5 class="mt-0">Lol-4New-Bees</h5>
         <i class="fab fa-facebook-f"></i>
         <i class="fab fa-twitter"></i>
@@ -64,7 +71,6 @@
     </footer>
 
      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
      <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
      <script>
        // Initialize Firebase
@@ -79,7 +85,7 @@
        firebase.initializeApp(config);
      </script>
      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-     <!--<script src="anime.min.js"></script>-->
+     <script src="/js/assets/anime.min.js"></script>
      <script src="js/app.js"></script>
      <script src="js/api.js"></script>
    </body>

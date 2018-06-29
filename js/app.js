@@ -67,35 +67,52 @@ firebase.auth().onAuthStateChanged(function(user) {
 
       //INICIALIZAR JQUERY CUANDO EL DOM SE ENCUENTRE CARGADO
 
-$(document).ready(function () {
-
-    $("#new-here").click(function(){
-      $("sign-up").show();
+      //this function hide the splash and reapper again the image in a soft fade in 
+$(function(){
+  $(".copy").hide();
+  $(".splash").hide();
+  $(".splash").fadeIn(2000)
+  
+  });
+//this function take the time the image is showing and fade it out , then makes appear the intro
+ $(function(){
+     setTimeout(function() {
+       $(".splash").fadeOut(2000, function() {
+       $(".copy").show();
     });
+   }, 3000);
+  });
 
-      //this function hide the splash and reapper again the image in a soft fade in
-      $(function(){
-        $("#image-splash-back").hide('');
-        $(".splash").hide();
-        $(".splash").fadeIn(3000)
 
-        });
-      //this function take the time the image is showing and fade it out , then makes appear the intro
-       $(function(){
-           setTimeout(function() {
-             $(".splash").fadeOut(4000, function() {
-             $("#copy").show();
-             $().button('toggle')
-          });
-         }, 3000);
-        });
+// $(document).ready(function () {
 
-        $(function(){
-          $("#sing-up").hide();
-          $("#new-here").click(function(){
-            $("#sing-up").show();
-            $("#loging").hide();
-          })
-        })
+//     $("#new-here").click(function(){
+//       $("sign-up").show();
+//     });
 
-});
+//       //this function hide the splash and reapper again the image in a soft fade in
+//       $(function(){
+//         $("#image-splash-back").hide('');
+//         $(".splash").hide();
+//         $(".splash").fadeIn(3000)
+
+//         });
+//       //this function take the time the image is showing and fade it out , then makes appear the intro
+//        $(function(){
+//            setTimeout(function() {
+//              $(".splash").fadeOut(4000, function() {
+//              $("#copy").show();
+//              $().button('toggle')
+//           });
+//          }, 3000);
+//         });
+
+//         $(function(){
+//           $("#sing-up").hide();
+//           $("#new-here").click(function(){
+//             $("#sing-up").show();
+//             $("#loging").hide();
+//           })
+//         })
+
+// });

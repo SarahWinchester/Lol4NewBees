@@ -5,3 +5,7 @@ html{
 .letters{
   color: goldenrod;
 }
+.letters2{
+  font-weight: lighter;
+  color: turquoise;
+}
