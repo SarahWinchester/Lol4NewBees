@@ -33,11 +33,20 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../views/vocabulary.html">Vocabulario</a>
+                    <a class="nav-link" href="../views/tips.html">Vocabulario</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="../views/champions.html">Campeones</a>
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Campeones
+                    </button>
+                    <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <a class="nav-link disabled" href="../views/champions.html">Campeones</a>
+                            <a class="nav-link disabled" href="../views/Individual.html">Single Champion</a>
+                        </div>
+                    </div>
+                    <!--  -->
                 </li>
             </li>
             <li class="nav-item">
@@ -46,10 +55,6 @@
             <li class="nav-item">
                 <a class="nav-link disabled" href="https://lan.leagueoflegends.com/es/page/preguntas-frecuentes-recompensas-3a-temporada">Dudas Frecuentes</a>
             </li>
-            <li>
-            <button class="btn btn-outline-dark" type="button" id="logout">Logout</button>
-                
-            </li> 
         </ul>
     </div>
 </nav>
@@ -77,11 +82,11 @@
     </section>
 </main>
 <footer>
-        <div class="panel panel-default">
-            <div class="panel-body"> © Riot Games, Inc. Todos los derechos reservados. Riot Games, League of Legends y PvP.net son marcas comerciales o marcas registradas de Riot Games, Inc.</div>
-        </div>
-    </footer>
-    
+    <div class="panel panel-default">
+        <div class="panel-body"> © Riot Games, Inc. Todos los derechos reservados. Riot Games, League of Legends y PvP.net son marcas comerciales o marcas registradas de Riot Games, Inc.</div>
+    </div>
+</footer>
+
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>

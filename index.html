@@ -1,92 +1,92 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Lol-4New-Bees</title>
-  </head>
-  <body>
-      <section class="row  ">
-          <div class="splash  center  blue-grey darken-3 bgdetails ">
-              <div class=" col s12 textSplash">Lol 4NewBees</div>
-              <img src="../assets/porobees.png" alt="" >
-          </div>
-          
-          </div>
-      </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Lol-4New-Bees</title>
+</head>
+<body>
+  <section class="row  ">
+    <div class="splash  center  blue-grey darken-3 bgdetails ">
+      <div class=" col s12 textSplash">Lol 4NewBees</div>
+      <img src="../assets/porobees.png" alt="" >
+    </div>
+    
+  </div>
+</section>
 
-    <main class="container first-page col-sm-12 align-self-center copy" >
+<main class="container first-page col-sm-12 align-self-center copy" >
+  
+  <header>
+    <div class="sticky-top">
+      <img src="assets/icon.png" alt="">
+    </div>
+  </header>
+  <div class="container-wrape ">
+    <div>
+      <form id="sing-up"  class="w-50 p-3" action="">
+        <label for="invocador"></label>
+        <input id="new-user-name" name="username" type="text" placeholder="Correo">
+        <label for="password"></label>
+        <input type="password" id="password-up" name="password" placeholder="Contraseña">
+        <button id="signup" class="btn btn-outline-dark" type="button">Sign-up</button>
+        <div id="error"></div>
+        <div id="loader">
+        </div>
+      </form>
+    </div>
+    <div  id="loging" class="row log-in">
+      <form action="">
+        <label for="invocador">
+        </label>
+        <input id="username" name="username" type="text" placeholder="Correo">
+        <label for="password"></label>
+        <input type="password" id="password" name="password" placeholder="Contraseña">
+        <button id="login" class="btn btn-outline-dark" type="button">Login</button>
+        <button class="btn btn-outline-dark" type="button" id="logout">Logout</button>
+        <div id="error"></div>
+        <div id="loader">
+        </div>
+      </form>
+    </div>
+    <div  class="new-account form-check s12">
       
-      <header>
-        <div class="sticky-top">
-          <img src="assets/icon.png" alt="">
-        </div>
-      </header>
-      <div class="container-wrape ">
-        <div>
-          <form id="sing-up"  class="w-50 p-3" action="">
-                    <label for="invocador"></label>
-                    <input id="new-user-name" name="username" type="text" placeholder="Correo">
-                    <label for="password"></label>
-                    <input type="password" id="password-up" name="password" placeholder="Contraseña">
-                    <button id="signup" class="btn btn-outline-dark" type="button">Sign-up</button>
-                    <div id="error"></div>
-                    <div id="loader">
-                    </div>
-                </form>
-        </div>
-        <div  id="loging" class="row log-in">
-              <form action="">
-                  <label for="invocador">
-                  </label>
-                  <input id="username" name="username" type="text" placeholder="Correo">
-                  <label for="password"></label>
-                  <input type="password" id="password" name="password" placeholder="Contraseña">
-                  <button id="login" class="btn btn-outline-dark" type="button">Login</button>
-                  <button class="btn btn-outline-dark" type="button" id="logout">Logout</button>
-                  <div id="error"></div>
-                  <div id="loader">
-                  </div>
-              </form>
-          </div>
-          <div  class="new-account form-check s12">
+      <button id="new-here" class="btn btn-outline-dark" type="button"> New?? sign up</button>
+    </div>
+    
+  </div>
+  
+</main>
+<footer>
+  <div class="logo-footer copy" >
+    
+    <h5 class="mt-0">Lol-4New-Bees</h5>
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    
+  </div>
+</footer>
 
-            <button id="new-here" class="btn btn-outline-dark" type="button"> New?? sign up</button>
-          </div>
-
-      </div>
-
-    </main>
-    <footer>
-      <div class="logo-footer copy" >
-        
-        <h5 class="mt-0">Lol-4New-Bees</h5>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-
-      </div>
-    </footer>
-
-     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-     <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
-     <script>
-       // Initialize Firebase
-       var config = {
-         apiKey: "AIzaSyDMO_Lp1WJu123MjGNjwuNcuulXCj40eqw",
-         authDomain: "lol-4new-bees.firebaseapp.com",
-         databaseURL: "https://lol-4new-bees.firebaseio.com",
-         projectId: "lol-4new-bees",
-         storageBucket: "lol-4new-bees.appspot.com",
-         messagingSenderId: "898255528761"
-       };
-       firebase.initializeApp(config);
-     </script>
-     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-     <script src="/js/assets/anime.min.js"></script>
-     <script src="js/app.js"></script>
-     <script src="js/api.js"></script>
-   </body>
- </html>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDMO_Lp1WJu123MjGNjwuNcuulXCj40eqw",
+    authDomain: "lol-4new-bees.firebaseapp.com",
+    databaseURL: "https://lol-4new-bees.firebaseio.com",
+    projectId: "lol-4new-bees",
+    storageBucket: "lol-4new-bees.appspot.com",
+    messagingSenderId: "898255528761"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="/js/assets/anime.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/api.js"></script>
+</body>
+</html>
