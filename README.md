@@ -1,4 +1,4 @@
-![](../assets/images/poros.jpg)
+![](/Prototype/2.png)
 <!-- ![logo](https://cdn-images-1.medium.com/max/945/1*3ebT5azEfTrKxANOE3BwyA.jpeg) -->
  # Hackathon Laboratoria 2018
 
