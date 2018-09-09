@@ -1,5 +1,5 @@
-![](/assets/images/poros.jpg)
-![logo](https://cdn-images-1.medium.com/max/945/1*3ebT5azEfTrKxANOE3BwyA.jpeg)
+![](../assets/images/poros.jpg)
+<!-- ![logo](https://cdn-images-1.medium.com/max/945/1*3ebT5azEfTrKxANOE3BwyA.jpeg) -->
  # Hackathon Laboratoria 2018
 
 
