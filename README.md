@@ -1,10 +1,12 @@
-![logo](https://cdn-images-1.medium.com/max/945/1*3ebT5azEfTrKxANOE3BwyA.jpeg)
- # Hackathon Laboratoria 2018
+# Lol4NewBees
+![lol4newbees](https://user-images.githubusercontent.com/37587788/45273809-f177c180-b479-11e8-8e18-7d83bb4ddb5e.png)
 
+ # Hackathon Laboratoria 2018
+![Lol4newbees](./assets/images/Lol4newbees.png)
 
 _Con la temática  de entretenimiento crearemos soluciones/productos utilizando un API_
 ***
-** Tema : League of Legends  para principiantes**
+** Tema : League of4newbess.png Legends  para principiantes**
 
 ## Problemática actual
 
